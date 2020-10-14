@@ -1,0 +1,26 @@
+name: tensorflow_gpu_2_1_0
+ 
+dependencies:
+    - python=3.7
+    - pip>=19.0
+    - jupyter
+    - tensorflow-gpu=2.1.0
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - numpy
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - keras
+    - pip:
+        - bayesian-optimization
+        - gym
+        - kaggle
+        
